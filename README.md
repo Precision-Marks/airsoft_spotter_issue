@@ -1,2 +1,3 @@
 # airsoft_spotter
-Issues of AIRSOFT SPOTTER
+
+This repository is for managing issues of AIRSOFT SPOTTER.
