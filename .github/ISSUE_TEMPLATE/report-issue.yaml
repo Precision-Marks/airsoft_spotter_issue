@@ -21,7 +21,7 @@ body:
       required: true
   - type: input
     attributes:
-      label: Device Name
+      label: Device Name (like Pixel8)
     validations:
       required: true
   - type: dropdown
