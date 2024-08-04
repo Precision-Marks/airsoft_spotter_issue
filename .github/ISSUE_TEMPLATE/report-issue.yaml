@@ -14,9 +14,9 @@ body:
     attributes:
       label: Build Version
       description: You can find the build version info in Menu - Settings of AIRSOFT SPOTTER app.
-    options:
-      - 0.9.3
-      - Others
+      options:
+        - 0.9.3
+        - Others
     validations:
       required: true
   - type: input
