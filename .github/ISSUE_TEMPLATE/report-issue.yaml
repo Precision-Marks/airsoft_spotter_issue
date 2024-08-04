@@ -1,0 +1,80 @@
+name: Report Issue
+description: Report issue of AIRSOFT SPOTTER application.
+labels:
+  - bug
+body:
+  - type: input
+    attributes:
+      label: Title
+      description: A clear and concise description of the issue.
+    validations:
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: Build Version
+      description: You can find the build version info in Menu - Settings of AIRSOFT SPOTTER app.
+    options:
+      - 0.9.3
+      - Others
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Device Name
+    validations:
+      required: true
+  - type: dropdown
+    id: device-os
+    attributes:
+      label: Device OS
+      options:
+        - Android  9
+        - Android 10
+        - Android 11
+        - Android 12
+        - Android 13
+        - Android 14
+        - Android 15
+    validations:
+      required: true
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      options:
+        - Main Camera Screen
+        - Shooting Competition
+        - Shooting Results List
+        - Shooting Result Detail
+        - Shooting Rules List
+        - Shooting Rule Detail
+        - Equipments List
+        - Equipment Detail
+        - Settings
+        - Others
+    validations:
+      required: true
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      options:
+        - Critical
+        - High
+        - Middle
+        - Low
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Description
+      description: Describe the issue in detail.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Steps to Reproduce
+      description: Describe the steps to reproduce the issue with expected/actual behaviors.
+    validations:
+      required: false
