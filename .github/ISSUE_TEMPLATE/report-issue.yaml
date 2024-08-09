@@ -3,12 +3,6 @@ description: Report issue of AIRSOFT SPOTTER application.
 labels:
   - bug
 body:
-  - type: input
-    attributes:
-      label: Title
-      description: A clear and concise description of the issue.
-    validations:
-      required: true
   - type: dropdown
     id: version
     attributes:
@@ -29,6 +23,7 @@ body:
     attributes:
       label: Device OS
       options:
+        - Unknown
         - Android  9
         - Android 10
         - Android 11
