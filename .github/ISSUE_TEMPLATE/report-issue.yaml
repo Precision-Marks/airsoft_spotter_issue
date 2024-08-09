@@ -24,6 +24,7 @@ body:
       label: Device OS
       options:
         - Unknown
+        - Android  8
         - Android  9
         - Android 10
         - Android 11
