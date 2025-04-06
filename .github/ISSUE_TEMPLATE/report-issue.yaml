@@ -11,7 +11,10 @@ body:
       options:
         - 0.9.3
         - 1.0.0
+        - 1.1.0
+        - 1.2.0
         - Others
+      default: 2
     validations:
       required: true
   - type: input
@@ -33,6 +36,7 @@ body:
         - Android 13
         - Android 14
         - Android 15
+        - Android 16
     validations:
       required: true
   - type: dropdown
